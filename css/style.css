@@ -1,0 +1,124 @@
+/*normaliz*/
+*{
+    padding: 0;
+    margin: 0;
+}
+/*nav*/
+.nav{
+    background-image:url(../images/1.jpg);
+    display: block;
+    padding: 50px;
+}
+.nav ul li{
+    display: inline-block;
+}
+  .nav ul h1{
+    margin-left: 60px;
+    font-size: 108px;
+    color: #fff;
+    font-family: 'Satisfy', cursive;
+  }
+ .nav li p{
+    color: #fff; 
+    position:relative;
+    left: 400px;
+
+}
+/*end of nav*/
+/*start of section1*/
+.div1 p{
+    display: inline-block;
+    color: seagreen;
+    font-size: 28px;
+    margin-bottom: 30px;
+    padding: 10px;
+    margin-left: 20px;
+    text-shadow: 10px 10px 10px black;
+    font-size: 30px;
+}
+.div2{
+    display: flex;
+    justify-content: space-between;
+}
+.div2 img{
+    width: 400px;;
+    height: 300px;
+    margin-bottom: 20px;
+}
+/*end of section1*/
+/*section2*/
+.sec2{
+    background-image: url(../images/1.jpg);
+    background-repeat: no-repeat;
+    height: 120vh;
+}
+/*start of pro1*/
+.pro1{
+    display: flex;
+    justify-content: space-around;
+}
+.pro1 img{
+    width:400px;
+    height: 110px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}/*end of pro1*/
+hr{
+    color: seashell;
+}/*start of pro2*/
+.pro2 span {   display: inline-block;
+    margin-left: 100px;
+}
+ .pro2 h2{
+    margin-left: 60px;
+    font-size: 60px;
+    color: #fff;
+    font-family: 'Satisfy', cursive;
+}
+.pro2 span img{
+    width:100px;
+    height:100px;
+    padding: top 10px;
+    margin-top: 10px;
+    margin-left:10px ; 
+}
+ h3{
+    color: seashell;
+}
+ p{
+    color: seashell;
+    font-size: 30px;
+    font-style: oblique;
+}/*end of pro2*/
+hr{
+    color: seashell;
+}/*start of pro3*/
+.pro3 span{
+    display: inline-block;
+    margin-left: 100px;
+   
+}
+.pro3 h2{
+    margin-left: 60px;
+    font-size: 60px;
+    color: #fff;
+    font-family: 'Satisfy', cursive;
+}
+.pro3 span img{
+    width:100px;
+    height:100px;
+    padding: top 10px; 
+    margin-top: 10px;
+    margin-left:10px ;
+}
+/*end of pro3*/
+.footer p{
+    margin-left: 60px;
+    font-size: 60px;
+    color: rgb(216, 38, 163);
+    font-family: 'Satisfy', cursive;
+    display: inline-block;
+}
+
+
+
